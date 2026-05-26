@@ -1,0 +1,47 @@
+.ramheading{
+  text-align: center;
+  font-size: xx-large;
+  
+}
+
+.maindiv {
+  width: 220px;
+  margin: 80px auto;
+  padding: 25px;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: Arial, sans-serif;
+  border: 10px solid black;
+}
+
+.maindiv > div:first-child {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.maindiv button {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  background: white;
+  color: #764ba2;
+  transition: all 0.3s ease;
+}
+
+.maindiv button:hover {
+  background: #f1f1f1;
+  transform: scale(1.1);
+}
+
+.maindiv button:active {
+  transform: scale(0.95);
+}
