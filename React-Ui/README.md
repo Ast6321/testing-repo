@@ -17,6 +17,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-<P> i got conflict but i solve it  </p>
+<P> i have make changes  </p>
 
 
